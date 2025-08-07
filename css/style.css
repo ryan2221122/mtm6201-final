@@ -60,11 +60,12 @@ a:focus {
   color: #ffe6ac;
 }
 
+/* ===== CARDS ===== */
 .card {
   background-color: #ffe4e1;
 }
 
-
+/* ===== FORMS ===== */
 input:focus,
 textarea:focus {
   border-color: var(--bs-primary);
