@@ -1,0 +1,80 @@
+
+:root {
+  --bs-primary: #8a5e00;
+  --bs-primary-dark: #5d3c00; 
+  --bs-primary-rgb: 138, 94, 0;
+  --bs-body-font-family: 'Open Sans', sans-serif;
+  --bs-body-bg: #ffffff;
+  
+  --bs-body-color: #495057;
+}
+
+.section-bg-light-brown {
+  background-color: #C8A9A9;
+}
+
+.btn.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-primary:focus {
+  
+  background-color: var(--bs-primary-dark);
+  border-color: var(--bs-primary-dark);
+  transform: scale(1.02);
+}
+
+.btn.btn-outline-primary {
+  color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.btn.btn-outline-primary:hover,
+.btn.btn-outline-primary:focus {
+  background-color: var(--bs-primary);
+  color: #fff;
+  transform: scale(1.02);
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--bs-primary);
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    transition: color 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ffe6ac;
+}
+
+.card {
+  background-color: #ffe4e1;
+}
+
+
+input:focus,
+textarea:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.25);
+  transition: box-shadow 0.2s ease;
+}
+
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
